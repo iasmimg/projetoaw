@@ -1,0 +1,16 @@
+.div
+     {
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+     section
+     {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 80vh;
+     }
+     .espacamento
+     {
+     margin-top: 100px;
+     }
