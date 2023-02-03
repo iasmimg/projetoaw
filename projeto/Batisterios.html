@@ -106,11 +106,18 @@
                 <label for="cidade">Cidade do Matrimônio:</label>
                 <input type="cidade" name="cidade" id="cidade">
             </p>
-            <p>
-                <input type="submit" value="Enviar" >
-            </p>
-
+            
+            <div class="button">
+              <button onclick="Enviado()" id="Enviar">Enviar</button> 
+            </div>
            </form>
+           
+           <script type="text/javascript">
+            function Enviado(){
+              alert("Suas informações foram enviadas.")
+            }
+    
+          </script>
         </div>
         
       </section>
